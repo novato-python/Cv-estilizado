@@ -1,3 +1,8 @@
+:root{
+    --color-izquierdo:rgb(179, 222, 241);
+    --color-derecho:rgba(242, 245, 246, 0.996);
+}
+
 *{
     margin: 0;
     padding:0 ;
@@ -28,12 +33,12 @@ ul{
 
 .columnaIzquierda{
     width: 35%;
-    background-color: rgb(181, 209, 224);
+    background:var(--color-izquierdo) ;
     text-align: left;
 }
 .columnaDerecha{
     width: 65%;
-    background-color: whitesmoke;
+    background:var(--color-derecho);
     padding-left: 40px;
 }
 
@@ -114,5 +119,6 @@ h2{
     width: 50px;
     height: 50px;
 }
+
 
 
