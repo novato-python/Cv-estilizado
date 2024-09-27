@@ -1,6 +1,7 @@
 :root{
     --color-izquierdo:rgb(179, 222, 241);
     --color-derecho:rgba(242, 245, 246, 0.996);
+    --color-footer:rgb(179, 222, 241);
 }
 
 *{
@@ -102,7 +103,7 @@ h2{
 }
 
 .piepag{
-    background-color:rgb(181, 209, 224) ;
+    background:var(--color-footer) ;
     text-align: center;
     padding: 20px;
     position: relative;
